@@ -1,7 +1,7 @@
 # Multi Blockchain Wallet In Python
 
 ## Background
-###Your new startup is focusing on building a portfolio management system that supports not only traditional assets
+Your new startup is focusing on building a portfolio management system that supports not only traditional assets
 like gold, silver, stocks, etc, but crypto-assets as well! The problem is, there are so many coins out there! It's
 a good thing you understand how HD wallets work, since you'll need to build out a system that can create them.
 You're in a race to get to the market. There aren't as many tools available in Python for this sort of thing, yet.
@@ -16,13 +16,13 @@ Ethereum keys are the same format on any network, so they should work with your 
 ##Dependencies
 
 
-###PHP must be installed on your operating system (any version, 5 or 7). Don't worry, you will not need to know any PHP.
+PHP must be installed on your operating system (any version, 5 or 7). Don't worry, you will not need to know any PHP.
 
 
-###You will need to clone the hd-wallet-derive tool.
+You will need to clone the hd-wallet-derive tool.
 
 
-###bit Python Bitcoin library.
+bit Python Bitcoin library.
 
 
-###web3.py Python Ethereum library.
+web3.py Python Ethereum library.
