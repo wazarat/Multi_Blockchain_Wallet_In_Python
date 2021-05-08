@@ -1,6 +1,7 @@
 # Multi-Blockchain Wallet in Python
 
-![newtons-coin-cradle](Images/newtons-coin-cradle.jpg)
+![image](https://user-images.githubusercontent.com/70607134/117537415-acabdc00-afce-11eb-9ea7-e8aeda5518a3.png)
+
 
 ## Background
 
@@ -49,7 +50,8 @@ Ethereum keys are the same format on any network, so they should work with your 
 
 Your directory tree should look something like this:
 
-![directory-tree](Images/tree.png)
+![image](https://user-images.githubusercontent.com/70607134/117537437-d107b880-afce-11eb-90ab-58d4ef10df11.png)
+
 
 ### Setup constants
 
@@ -85,7 +87,8 @@ Your directory tree should look something like this:
 - Create an object called `coins` that derives `ETH` and `BTCTEST` wallets with this function.
   When done properly, the final object should look something like this (there are only three children each in this image):
 
-![wallet-object](Images/wallet-object.png)
+![image](https://user-images.githubusercontent.com/70607134/117537464-fc8aa300-afce-11eb-8464-2f4b305e1d1f.png)
+
 
 You should now be able to select child accounts (and thus, private keys) by calling `coins[COINTYPE][INDEX]['privkey']`.
 
@@ -158,7 +161,8 @@ You'll need to set the account with  `priv_key_to_account` and use `send_tx` to 
 
 - Screenshot the confirmation of the transaction, like so:
 
-![btc-test](Images/btc-test.png)
+![image](https://user-images.githubusercontent.com/70607134/117537482-2e9c0500-afcf-11eb-8f86-2dcea200c94c.png)
+
 
 #### Local PoA Ethereum transaction
 
@@ -183,7 +187,8 @@ w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 - Send a transaction from the pre-funded address within the wallet to another, then copy the `txid` into
   MyCrypto's TX Status, and screenshot the successful transaction, like so:
 
-![eth-test](Images/eth-test.png)
+![image](https://user-images.githubusercontent.com/70607134/117537507-61de9400-afcf-11eb-9247-b93a82edc901.png)
+
 
 ### Submission
 
